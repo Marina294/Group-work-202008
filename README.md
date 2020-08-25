@@ -6,7 +6,7 @@ This is make new friends and know about local vancouver site.
 
 As user, I want to
 
-make good friends (edited) 
+make good friends 
 
 find close friends easily
 
