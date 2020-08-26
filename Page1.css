@@ -54,7 +54,8 @@ label {
     background: #FFFFFF;
     border: 1px solid #555555;
     border-radius: 56px;
-    width: 400px;
+ 
+    min-width: 100px;
     height: 32px;
 }
 
