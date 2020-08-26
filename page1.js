@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let name = document.getElementById("name");
   let email = document.getElementById("email");
   let pass = document.getElementById("pass");
-  // let submitButton = document.getElementById("");
+  // let submitButton = document.getElementById("submit-button");
   
   name.addEventListener("change", function(){
     if(name.value !== ""){
@@ -30,7 +30,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   },false);
 
-  // if(name.value !== "" && email.value !== "" && pass.value !== ""){
-    
-  // }
+  // document.querySelectorAll("input").addEventListener('change', function(){ 
+  //   if(name.value !== "" && email.value !== "" && pass.value !== ""){
+  //     submitButton.style.background = "#E30246";
+  //   }else{
+  //     submitButton.style.background = "black";    
+  //   }
+  // },false);
 }, false);
