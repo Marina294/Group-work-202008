@@ -1,0 +1,88 @@
+
+@media screen and ( max-width:1400px ) {
+    body {
+font-family: "Lucida Grande";
+color: #555555;
+background-color: #FAFAFA;   
+}
+}
+
+li {
+list-style: none;
+}
+
+
+
+.header{
+background-color: #FAFAFA;
+height: 80px;
+}
+
+img {
+    float: left;
+display: block;
+margin: left;
+width: 100px;
+padding: 24PX 56PX 24PX 160PX;
+}
+
+.main{
+background-color: #FFFFFF;
+height:600px;
+}
+
+.main-copy h2 {
+font-size: 35px;
+text-align: center;
+padding: 48px 24px 24px 24px;
+margin: 0px;
+}
+
+
+.format label {
+display: block;
+font-family: "Lucida Grande";
+font-size: 16px;
+font-weight: bold;
+text-align: center;
+}
+
+input,
+label {
+    float: left;
+margin: 10px 10px 10px 10px;
+text-align: left;
+padding: 8px 24px 8px 24px;
+background: #FFFFFF;
+border: 1px solid #555555;
+border-radius: 56px;
+min-width: 240px;
+height: 24px;
+}
+
+.submit-button input{
+margin: 16px 24px 8px 24px;
+text-align: center;
+padding: 8px 24px 8px 24px;
+font-size: 16px;
+font-weight: bold;
+letter-spacing: 0px;
+color: #FFFFFF;
+background: #E30246;
+border: 0px;
+opacity: 1;
+width: 200px;
+height: 48px;
+}
+
+.cap {
+display: block;
+font-family: "Lucida Grande";
+font-size: 12px;
+}
+
+a {
+color: #E30246;
+}
+
+
