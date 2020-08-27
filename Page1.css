@@ -31,6 +31,8 @@ img {
 }
   
 .main-copy h2 {
+    font-family: "Lucida Grande";
+    color: #555555;
     font-size: 35px;
     text-align: center;
     padding: 48px 24px 24px 24px;
