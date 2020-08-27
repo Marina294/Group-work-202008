@@ -4,7 +4,7 @@ This is make new friends and know about local vancouver site.
 
 ## User Story
 
-As user, I want to
+As an user, I want to
 
 make good friends 
 
