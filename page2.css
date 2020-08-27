@@ -44,10 +44,19 @@
 }
 
 
+.main-copy h2 {
+    font-family: "Lucida Grande";
+    color: #555555;
+    font-size: 35px;
+    text-align: center;
+    padding: 48px 24px 24px 24px;
+    margin: 0px;
+}
+
 .main {
     background-color: #FFFFFF;
     text-align: center;
-    display: flexbox;
+    /* display: flexbox; */
     font-size: 2em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
@@ -57,38 +66,40 @@
 }
 
 
-button label{
+button, label{
     margin: 10px 10px 10px 10px;
-    text-align: left;
-    padding: 8px 24px 8px 24px;
+    text-align: center;
+    padding: 8px 24px 8px 24px; 
     background: #FFFFFF;
     border: 1px solid #555555;
     border-radius: 56px;
     min-width: 100px;
-    height: 32px;
+    height: 56px;
+    min-width: 10%;
+    width: 80%;
+    font-size: 30px;
+    color: #555555;
+    opacity: 0.6;
 }
 
-.format {
-    margin: 10px 10px 10px 10px;
-    text-align: left;
-    padding: 8px 24px 8px 24px;
-    background: #FFFFFF;
-    border: 1px solid #555555;
-    border-radius: 56px;
-    min-width: 100px;
-    height: 32px;
-}
+
 
 .button {
     margin: 10px 10px 10px 10px;
-    text-align: left;
+    text-align: center;
     padding: 8px 24px 8px 24px;
     background: #FFFFFF;
     border: 1px solid #555555;
     border-radius: 56px;
     min-width: 100px;
-    height: 32px;
+ 
+    
 }
+.menuList {
+    flex-direction: column;
+    display: flex;
+}
+
 
 h1 {
     font-size: 35px;
@@ -111,3 +122,11 @@ label {
     height: 24px;
 }
 
+li {
+    list-style: none;
+}
+
+ul {
+    float: left;
+    padding: 0;
+}
