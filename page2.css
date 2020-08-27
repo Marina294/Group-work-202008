@@ -1,0 +1,113 @@
+
+@media screen and ( max-width: 1400px ) {
+    body {
+        font-family: "Lucida Grande";
+        color: #555555;
+        background-color: #FAFAFA;   
+        min-width: 500px;
+    }
+ }
+
+
+.header{
+    background-color: #FAFAFA;
+    min-height: 80px;
+    min-width: 500px;
+}
+
+.header-logo img {
+    float: left;
+    display: flex;
+    width: 120px;
+    padding: 24PX 32PX 24PX 40PX;
+    }
+
+.header-icon-search img {
+    float: right;
+    width: 24px;
+    height: 24px;
+    padding: 24PX 16PX 24PX 8PX;
+}
+
+.header-icon-mail img{
+    float: right;
+    width: 25px;
+    height: 25px;
+    padding: 24PX 16PX 24PX 8PX;
+}
+
+.header-icon-ham img{
+    float: right;
+    width: 24px;
+    height: 24px;
+    padding: 24PX 40PX 24PX 8PX;
+}
+
+
+.main {
+    background-color: #FFFFFF;
+    text-align: center;
+    display: flexbox;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+button label{
+    margin: 10px 10px 10px 10px;
+    text-align: left;
+    padding: 8px 24px 8px 24px;
+    background: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 56px;
+    min-width: 100px;
+    height: 32px;
+}
+
+.format {
+    margin: 10px 10px 10px 10px;
+    text-align: left;
+    padding: 8px 24px 8px 24px;
+    background: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 56px;
+    min-width: 100px;
+    height: 32px;
+}
+
+.button {
+    margin: 10px 10px 10px 10px;
+    text-align: left;
+    padding: 8px 24px 8px 24px;
+    background: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 56px;
+    min-width: 100px;
+    height: 32px;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    padding: 48px 24px 24px 24px;
+    margin: 0px;
+}
+
+
+input,
+label {
+    margin: 12px 10px 0px 10px;
+    text-align: left;
+    padding: 8px 24px 8px 24px;
+    background: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 56px;
+    min-width: 10%;
+    width: 20%;
+    height: 24px;
+}
+
