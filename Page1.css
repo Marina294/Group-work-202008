@@ -1,21 +1,16 @@
-
-@media screen and ( max-width:1400px ) {
-        body {
-    font-family: "Lucida Grande";
-    color: #555555;
-    background-color: #FAFAFA;   
+@media screen and ( max-width: 1400px ) {
+    body {
+        font-family: "Lucida Grande";
+        color: #555555;
+        background-color: #FFFFFF;   
+        min-width: 448px;
     }
 }
-
-li {
-    list-style: none;
-  }
-
-
 
  .header{
     background-color: #FAFAFA;
     height: 80px;
+    min-width: 448px;
   }
 
 img {
@@ -27,18 +22,26 @@ img {
 
 .main{
     background-color: #FFFFFF;
-    height:600px;
+    width: 100%;
 }
   
 .main-copy h2 {
-    font-family: "Lucida Grande";
-    color: #555555;
     font-size: 35px;
+    font-weight: bold;
     text-align: center;
     padding: 48px 24px 24px 24px;
     margin: 0px;
 }
-  
+
+.format-main-content-div {
+    text-align: center;
+    /* max-width: 448px;
+    display: flex;
+    background-color: #FFFFFF;
+    margin:0 auto;   
+    flex-direction: row;
+    justify-content: space-around; */
+}
 
 .format label {
     display: block;
@@ -56,8 +59,8 @@ label {
     background: #FFFFFF;
     border: 1px solid #555555;
     border-radius: 56px;
- 
-    min-width: 100px;
+    min-width: 320px;
+    max-width: 40%;
     height: 24px;
 }
 
@@ -72,14 +75,17 @@ label {
     background: #E30246;
     border: 0px;
     opacity: 1;
-    width: 200px;
+    max-width: 200px;    
+    min-width: 10%;
     height: 48px;
 }
 
 .cap {
     display: block;
+    text-align: center;
     font-family: "Lucida Grande";
     font-size: 12px;
+    color: #757575;
 }
 
 a {

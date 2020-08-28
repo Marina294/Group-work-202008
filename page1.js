@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if(name.value !== ""){
       name.style.borderColor = "#E30246";
     }else if (name.value === ""){
-      name.style.borderColor = "black";
+      name.style.borderColor = "#555555";
     }
   },false);
   
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if(email.value !== ""){
       email.style.borderColor = "#E30246";
     }else if (email.value === ""){
-      email.style.borderColor = "black";
+      email.style.borderColor = "#555555";
     }
   },false);
 
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if(pass.value !== ""){
       pass.style.borderColor = "#E30246";
     }else if (pass.value === ""){
-      pass.style.borderColor = "black";
+      pass.style.borderColor = "#555555";
     }
   },false);
 
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
   //   if(name.value !== "" && email.value !== "" && pass.value !== ""){
   //     submitButton.style.background = "#E30246";
   //   }else{
-  //     submitButton.style.background = "black";    
+  //     submitButton.style.background = "#555555";    
   //   }
   // },false);
 }, false);

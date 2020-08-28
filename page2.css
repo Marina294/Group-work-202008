@@ -3,7 +3,7 @@
     body {
         font-family: "Lucida Grande";
         color: #555555;
-        background-color: #FAFAFA;   
+        background-color: #FFFFFF;   
         min-width: 500px;
     }
  }
@@ -57,12 +57,12 @@
     background-color: #FFFFFF;
     text-align: center;
     /* display: flexbox; */
-    font-size: 2em;
+    /* font-size: 2em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-weight: bold;
+    font-weight: bold; */
 }
 
 
@@ -130,3 +130,5 @@ ul {
     float: left;
     padding: 0;
 }
+
+
