@@ -132,3 +132,42 @@ ul {
 }
 
 
+.footer {
+    background-color: #ffffff;
+    height: 140px;
+    padding: 24px 40px 24px 40px;
+    text-align: center;
+}
+
+.footer-logo img {
+
+    /* display: flex; */
+    width: 80px;
+    padding: 0PX 8PX 16PX 8PX;
+ }
+
+
+.footer-list li {
+    list-style: none;
+    display: inline-block;
+    text-decoration: underline;
+    padding: 0PX 12PX 4PX 12PX;
+    line-height: 4px;
+}
+
+.footer-list a{
+    color: #E30246;
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+
+.cap {
+    display: block;
+    font-family: "Lucida Grande";
+    font-size: 12px;
+    font-weight: normal;
+    color: #757575;
+    margin: 4px;
+    padding-bottom: 24px;
+}
