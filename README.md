@@ -33,12 +33,7 @@ This page is the easiest to find what you want.
 
 ## This site is
 
-Friendly 
-Pop
-easy
-Fun
-Enjoyable 
-Useful
+Friendly, Pop, easy, Fun, Enjoyable, Useful
 
 ## Wire Frames
 
